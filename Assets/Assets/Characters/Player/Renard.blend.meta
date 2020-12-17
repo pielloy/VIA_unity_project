@@ -30,6 +30,9 @@ ModelImporter:
   - first:
       74: -25808428617999928
     second: Cube|Run
+  - first:
+      74: 6177703347404924728
+    second: Cube|Attack_Running
   externalObjects: {}
   materials:
     materialImportMode: 1
