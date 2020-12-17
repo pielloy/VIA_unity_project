@@ -6,6 +6,21 @@ ModelImporter:
   - first:
       74: -623603649343465320
     second: Scene
+  - first:
+      74: -8945691123924629249
+    second: Armature|Idle
+  - first:
+      74: -8185048517107384243
+    second: Armature|IdleMove1.001
+  - first:
+      74: -8332977979842661661
+    second: Armature|IdleMove1
+  - first:
+      74: -7732596055579963766
+    second: Armature|IdleMove1.002
+  - first:
+      74: 8349542763059015795
+    second: Armature|Walk
   externalObjects:
   - first:
       type: UnityEngine:Material
