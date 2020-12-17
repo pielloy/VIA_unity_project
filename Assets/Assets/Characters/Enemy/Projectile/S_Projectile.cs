@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class S_Projectile : MonoBehaviour
 {
+    public GameObject myPrefab;
     [SerializeField]
     private float movementSpeed = 1f;
     [SerializeField]
@@ -23,5 +24,10 @@ public class S_Projectile : MonoBehaviour
     {
         if (!coll.CompareTag("SeeVolume"))
             Destroy(gameObject);
+    }
+
+    void OnDestroy()
+    {
+        Instantiate(myPrefab, transform.position, Quaternion.identity);
     }
 }

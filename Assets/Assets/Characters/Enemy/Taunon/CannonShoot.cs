@@ -13,9 +13,4 @@ public class CannonShoot : MonoBehaviour
 
         Instantiate(myPrefab, ball_pos, ball_rotation);
     }
-
-    void Update()
-    {
-
-    }
 }

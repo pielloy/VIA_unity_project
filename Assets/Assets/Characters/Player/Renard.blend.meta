@@ -1,32 +1,33 @@
 fileFormatVersion: 2
-guid: 22ec396c411deb14b8ad030bf2f34511
+guid: daaac4cd8b57ee14b9ebd7f8bb918df2
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable:
   - first:
-      74: -623603649343465320
-    second: Scene
+      74: 3868167254123991244
+    second: Cube|Roll
   - first:
-      74: -8945691123924629249
-    second: Armature|Idle
+      74: 3590869138972294232
+    second: armature|Attack_run
   - first:
-      74: -8185048517107384243
-    second: Armature|IdleMove1.001
+      74: -7435022177200633076
+    second: armature|Attack_Running
   - first:
-      74: -8332977979842661661
-    second: Armature|IdleMove1
+      74: -2433902058870051673
+    second: armature|Idle
   - first:
-      74: -7732596055579963766
-    second: Armature|IdleMove1.002
+      74: 4573489440190287723
+    second: armature|Roll
   - first:
-      74: 8349542763059015795
-    second: Armature|Walk
-  externalObjects:
+      74: -8036911839865647175
+    second: armature|Run
   - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Eyes
-    second: {fileID: 2100000, guid: 3536647c89d6d8a4bbf3e0ced49edf51, type: 2}
+      74: -452511283298360317
+    second: armature|Walk
+  - first:
+      74: 2131864205095655572
+    second: Cube|Idle
+  externalObjects: {}
   materials:
     materialImportMode: 1
     materialName: 0
