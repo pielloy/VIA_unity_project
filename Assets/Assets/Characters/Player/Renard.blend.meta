@@ -27,6 +27,9 @@ ModelImporter:
   - first:
       74: 2131864205095655572
     second: Cube|Idle
+  - first:
+      74: -25808428617999928
+    second: Cube|Run
   externalObjects: {}
   materials:
     materialImportMode: 1
