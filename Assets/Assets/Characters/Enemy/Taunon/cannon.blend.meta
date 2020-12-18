@@ -18,7 +18,12 @@ ModelImporter:
   - first:
       74: 6288740735624787162
     second: CanonArmature|Shoot
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cannon
+    second: {fileID: 2100000, guid: 8a39322b6e4d14b45b67e7a576214cb1, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
