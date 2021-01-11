@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoveCam : MonoBehaviour
 {
-       float speed = 4;
+      float speed = 4;
     float rotSpeed = 80;
     float gravity = 8;
     float rot = 0f;

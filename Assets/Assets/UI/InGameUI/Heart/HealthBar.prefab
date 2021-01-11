@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2384278909917147510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3286975594102853746}
+  - component: {fileID: 7486727995319881684}
+  m_Layer: 0
+  m_Name: HealthBar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3286975594102853746
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2384278909917147510}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &7486727995319881684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2384278909917147510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b14654e0078e0345b219e4cd8668286, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 901436370949308187, guid: 5bbe599e873d824498a10e7de8d3a2e5, type: 3}
+  HeartFull: {fileID: 21300000, guid: 7884feb16e84b604d89eaeada07bfae9, type: 3}
+  HeartTreeQuarter: {fileID: 21300000, guid: 7543074bdfad17b438386bb017f283df, type: 3}
+  HeartTwoQuarter: {fileID: 21300000, guid: efab7cffaa0ba7d4790e345a63701e6a, type: 3}
+  HeartOneQuarter: {fileID: 21300000, guid: 41eafd97d0cbc1746b012533255c1780, type: 3}
+  HeartEmpty: {fileID: 21300000, guid: fc8834ce932e98a41ae154a703673075, type: 3}
+  NbrOfHeart: 12
+  curentLife: 16

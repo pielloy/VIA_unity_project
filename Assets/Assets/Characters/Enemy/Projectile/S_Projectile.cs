@@ -22,7 +22,7 @@ public class S_Projectile : MonoBehaviour
 
     void OnTriggerEnter(Collider coll)
     {
-        if (!coll.CompareTag("SeeVolume"))
+        if (!coll.CompareTag("SeeVolume") && !coll.CompareTag("Projectile"))
             Destroy(gameObject);
     }
 
