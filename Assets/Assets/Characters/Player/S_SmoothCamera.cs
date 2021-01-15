@@ -6,7 +6,6 @@ public class S_SmoothCamera : MonoBehaviour
 {
     public GameObject m_FoxPlayer;
     public ArrayList m_CamerPos = new ArrayList();
-    bool m_CameraSpeed = true;
     float m_maxLength = 0f;
 
     public void AddCameraPoss(GameObject CameraPos)
@@ -38,7 +37,6 @@ public class S_SmoothCamera : MonoBehaviour
 
         this.transform.position = Vector3.Lerp(this.transform.position, pos.transform.position, 0.04f);
         this.transform.rotation = Quaternion.Lerp(this.transform.rotation, pos.transform.rotation, 0.05f);
-        m_CameraSpeed = false;
         m_maxLength = 300;
     }
 

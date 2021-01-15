@@ -19,8 +19,6 @@ public class S_CreateFootPrint : MonoBehaviour
         Vector3 footPos = rightFoot.transform.position;
         Quaternion footRotation = Quaternion.Euler(90, rightFoot.transform.rotation.eulerAngles.y, 0);
 
-        print(rightFoot.transform.rotation.eulerAngles.z);
-
         Instantiate(footprint, footPos, footRotation);
     }
 
@@ -28,8 +26,6 @@ public class S_CreateFootPrint : MonoBehaviour
     {
         Vector3 footPos = leftFoot.transform.position;
         Quaternion footRotation = Quaternion.Euler(90, leftFoot.transform.rotation.eulerAngles.y + 180, 0);
-
-        print(leftFoot.transform.rotation.eulerAngles.z);
 
         Instantiate(footprint, footPos, footRotation);
     }
