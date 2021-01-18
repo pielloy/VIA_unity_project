@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a793dfd503b200b4db0f37174db5a326
+guid: bd3f29617e969a141824c2ff73a0785d
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable: []
@@ -7,23 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Grass
-    second: {fileID: 2100000, guid: 560b831bb3c2a8c4992efa79d692b29c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: GrassSand
-    second: {fileID: 2100000, guid: 5a88106c083128649a0586a261a92213, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material
     second: {fileID: 2100000, guid: 560b831bb3c2a8c4992efa79d692b29c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Sand
-    second: {fileID: 2100000, guid: ea95fbd5b7930db4cbddf406d858960e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -98,7 +83,7 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 0
+  importAnimation: 1
   humanDescription:
     serializedVersion: 3
     human: []
