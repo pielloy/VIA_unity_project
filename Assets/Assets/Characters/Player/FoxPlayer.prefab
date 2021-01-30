@@ -43,7 +43,7 @@ GameObject:
   m_Layer: 0
   m_Name: CameraPos
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -87,7 +87,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8894762609435548626}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0.04429278, y: -0, z: -0, w: 0.9990186}
   m_LocalPosition: {x: -16.317133, y: 4.82, z: -17.067549}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -95,7 +95,7 @@ Transform:
   - {fileID: 6921561391034114135}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -5.077, y: 0, z: 0}
 --- !u!143 &8894762609435548655
 CharacterController:
   m_ObjectHideFlags: 0
@@ -141,6 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8f5acd6fdc7b6d44a5c33fd06423ca6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_speed: 0.01
 --- !u!1 &8894762609564018124
 GameObject:
   m_ObjectHideFlags: 0

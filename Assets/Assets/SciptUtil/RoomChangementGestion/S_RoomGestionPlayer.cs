@@ -10,7 +10,7 @@ public class S_RoomGestionPlayer : MonoBehaviour
     public ArrayList m_Rooms = new ArrayList();
     private Volume m_postProcessing;
     private float m_value;
-    public float m_speed = 0.01f;
+    public float m_speed = 0.05f;
 
     void Awake()
     {
@@ -30,7 +30,7 @@ public class S_RoomGestionPlayer : MonoBehaviour
         if (m_Rooms.Count == 1 && !((GameObject)m_Rooms[0]).transform.Find("Content").transform.gameObject.activeSelf) {
             ((GameObject)m_Rooms[0]).transform.Find("Content").transform.gameObject.SetActive(true);
             enabled = true;
-            m_value = 1;
+            m_value = 1.5f;
         }
     }
 

@@ -23,7 +23,7 @@ public class S_PlayerLife : MonoBehaviour
 
         for (int i = 0; i != NbrOfHeart; i++) {
             images[i] = Instantiate(image, pos, Quaternion.identity);
-            images[i].transform.parent = transform.parent;
+            images[i].transform.SetParent(transform.parent);
             pos.x += 60;
             if ((i + 1) % 8 == 0 && i != 1) {
                 pos.x = transform.position.x;
@@ -41,8 +41,6 @@ public class S_PlayerLife : MonoBehaviour
         for (int i = 0; i != NbrOfHeart; i++) {
             if ((life - i * 4) > 0)
             {
-                print("Life save : " + life_save + " life : " + life);
-                print((life_save <= life) ? 0 : life_save - life);
                 switch ((life_save <= life) ? 0 : life_save - life)
                 {
                     case 1:
